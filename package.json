@@ -1,0 +1,23 @@
+{
+  "name": "docker-status-electronjs",
+  "version": "1.0.0",
+  "description": "A ElectronJS App for view docker containers status (Used for NuBOX Infra)",
+  "main": "main.js",
+  "repository": "https://github.com/NuBOXDevCom/docker-status-electronjs",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "NuBOXDevCom",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0",
+    "jquery": "^3.3",
+    "moment": "^2.22",
+    "node-rest-client": "^3.1",
+    "popper.js": "^1.14.3"
+  }
+}
